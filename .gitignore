@@ -13,14 +13,12 @@ license-header.txt
 dist/
 
 # VS Code IDE
-.vscode/**/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
 
 # Local env files
-.env
 !.env.example
 
 # this is for jetbrain IDEs
@@ -30,3 +28,4 @@ dist/
 # Local Netlify folder
 .netlify
 src/emulator/release/
+config.bat
